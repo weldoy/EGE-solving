@@ -1,4 +1,6 @@
 print(' исключить при р=3 ')
+
+
 def f(x, y, p):
     if x + y >= 82 or p > 3:
         return p == 3 and x + y >= 82
@@ -14,6 +16,8 @@ for s in range(1, 77+1):
 
 
 print(' полное решение при р=3 и р=5')
+
+
 def f(x, y, p):
     if x + y >= 82 or p > 5:
         return (p == 5 or p == 3) and x + y >= 82
