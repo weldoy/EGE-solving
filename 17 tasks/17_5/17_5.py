@@ -10,3 +10,4 @@ with open('17_5.txt') as f:
         if (a < 0 or b < 0) and (a+b) < count_32:
             arr.append(a+b)
     print(len(arr), max(arr))
+        
