@@ -4,7 +4,8 @@ def m(number):
         if number % i == 0:
             divisors.add(i)
             divisors.add(number // i)
-    return max(divisors) + min(divisors)
+
+    return max(divisors) + min(divisors) if divisors else 0
 
 
 count = 0
