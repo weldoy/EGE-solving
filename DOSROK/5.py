@@ -1,5 +1,3 @@
-answers = []
-
 for first_n in range(1, 200):
     n2_str = ''
 
@@ -18,8 +16,5 @@ for first_n in range(1, 200):
     r = int(n2, 2)
 
     if r >= 480:
-        print(first_n, r)
-        answers.append(r)
-
-print(min(answers))
-
+        print(n)
+        break
