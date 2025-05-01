@@ -1,4 +1,4 @@
-string = '9' * 134
+string = '9 tasks' * 134
 
 while '22222' in string or '9999' in string:
     print(string)

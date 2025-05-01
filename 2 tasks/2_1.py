@@ -56,7 +56,7 @@
 # numbers = []
 # for y in '01234567':
 #     for x in range(1, 8): # Не от нуля, тк x в начале стоит
-#         number = int(f'{x}01{y}4', 9) + int(f'{x}{y}544', 8)
+#         number = int(f'{x}01{y}4', 9 tasks) + int(f'{x}{y}544', 8)
 #         if number % 89 == 0:
 #             numbers.append(number)
 # print(min(numbers)//89)
@@ -84,7 +84,7 @@
 # rt(90)
 #
 # for i in range(2):
-#     fd(9 * size)
+#     fd(9 tasks * size)
 #     rt(90)
 #     fd(32 * size)
 #     rt(90)

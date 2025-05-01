@@ -1,1 +1,1 @@
-print(bin(89)[2:])
+print(round(1.5))

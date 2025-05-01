@@ -67,7 +67,7 @@
 # print(arr.index('ОУУУОО') + 1)
 
 
-# x = 9 ** 11 * 3 ** 20 - 3 ** 9 - 27
+# x = 9 tasks ** 11 * 3 ** 20 - 3 ** 9 tasks - 27
 # string = 0
 #
 # while x > 0:

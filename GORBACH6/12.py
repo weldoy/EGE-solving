@@ -2,7 +2,7 @@ for n in range(1, 100):
     for j in range(1, 100):
         for k in range(1, 100):
 
-            nds = '7' * n + '8' * j + '9' * k
+            nds = '7' * n + '8' * j + '9 tasks' * k
             nd = nds
             answer = 0
 
@@ -12,7 +12,7 @@ for n in range(1, 100):
                 if '798' in nd:
                     nd = nd.replace('798', '7', 1)
                 if '999' in nd:
-                    nd = nd.replace('999', '9', 1)
+                    nd = nd.replace('999', '9 tasks', 1)
             for i in nd:
                 answer += int(i)
             if answer == 801:

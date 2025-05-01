@@ -22,7 +22,7 @@
 # arr = []
 # for x in '12345678':
 #     for y in '012345678':
-#         f = int(f'2{y}66{x}', 9) + int(f'{x}0{y}1', 12)
+#         f = int(f'2{y}66{x}', 9 tasks) + int(f'{x}0{y}1', 12)
 #         if f % 170 == 0:
 #             arr.append(f)
 #

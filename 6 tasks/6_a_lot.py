@@ -17,7 +17,7 @@
 # rt(90)
 #
 # for i in range(2):
-#     fd(9 * size)
+#     fd(9 tasks * size)
 #     rt(90)
 #     fd(32 * size)
 #     rt(90)
