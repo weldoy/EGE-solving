@@ -3,7 +3,7 @@ from ipaddress import *
 for i in range(0, 32 + 1):  # Маска может быть максимум 32 единички
     try:
         net = ip_network('111.81.192.0/' + str(i))  # Адрес сети
-        if ip_address('111.81.208.27') in net:
+        if ip_address('111.81.208.27 tasks') in net:
             print(f'net = {net.netmask} / {i=}')
     except:
         pass

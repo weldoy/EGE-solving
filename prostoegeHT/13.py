@@ -1,10 +1,10 @@
 from ipaddress import *
 
-net = ip_network('117.73.208.27/17', 0)
+net = ip_network('117.73.208.27 tasks/17', 0)
 for ip in net:
     print(ip)
 
-# 117.73.208.27
+# 117.73.208.27 tasks
 # 117.73.192.0
 
 # 11101010.1001001.11010000.11011000

@@ -1,7 +1,7 @@
 with open('17_21903.txt') as f:
     numbers = [int(n) for n in f]
 
-minsquare15 = min(n**2 for n in numbers if ((abs(n) % 100 == 15) and (100 <= abs(n) <= 999)))
+minsquare15 = min(n for n in numbers if ((abs(n) % 100 == 15) and (100 <= abs(n) <= 999))) ** 2
 
 arr = []
 for i in range(len(numbers) - 2):
