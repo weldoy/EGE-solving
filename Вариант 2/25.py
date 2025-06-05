@@ -10,14 +10,14 @@ def divisor(x):
     divisors = set()
     for o in range(2, int(x**.5) + 1):
         if x % o == 0:
-            if prime(x):
+            if prime(o):
                 divisors.add(o)
             if prime(x // o):
                 divisors.add((x // o))
     return sorted(divisors)
 
 
-for i in range(456790, 1_000_000):
+for i in range(456790, 457900):
     f = divisor(i)
     if f:
         if len(f) >= 4:

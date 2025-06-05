@@ -19,5 +19,5 @@ keyboard.add_hotkey('Alt + x', set_clicker)
 
 while True:
     if isClicking:
-        mouse.double_click(button = 'left')
-        time.sleep(0.01)
+        mouse.double_click(button='left')
+        time.sleep(0.1)
